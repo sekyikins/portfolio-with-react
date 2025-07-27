@@ -70,7 +70,7 @@ const About = () => {
               About <span className="text-primary-600 dark:text-primary-400">Me</span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              A passionate front-end developer from Ghana, dedicated to creating beautiful and functional web experiences with modern technologies.
+              A passionate front-end developer from Kumasi, Ghana, dedicated to creating beautiful and functional web experiences with modern technologies.
             </p>
           </motion.div>
 
@@ -86,7 +86,7 @@ const About = () => {
                 Benjamin Kofi Sekyi
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                I'm a front-end developer based in Ghana with a passion for creating user-friendly and visually appealing web applications. 
+                I'm a front-end developer based in Kumasi, Ghana with a passion for creating user-friendly and visually appealing web applications. 
                 My journey in web development started with a curiosity to understand how websites work, which led me to learn HTML, CSS, and JavaScript.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
@@ -111,7 +111,7 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <FiMapPin className="w-5 h-5 text-primary-600 dark:text-primary-400" />
-                  <span className="text-gray-600 dark:text-gray-400">Ghana</span>
+                  <span className="text-gray-600 dark:text-gray-400">Kumasi, Ghana</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <FiMail className="w-5 h-5 text-primary-600 dark:text-primary-400" />

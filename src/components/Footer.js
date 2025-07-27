@@ -38,7 +38,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 max-w-md">
-              Front-end developer from Ghana, passionate about creating beautiful and functional web experiences.
+              Front-end developer from Kumasi, Ghana, passionate about creating beautiful and functional web experiences.
             </p>
           </div>
 
@@ -99,7 +99,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-sm text-gray-600 dark:text-gray-400">
               <span>Made with</span>
               <FiHeart className="w-4 h-4 text-red-500" />
-              <span>in Ghana</span>
+                              <span>in Kumasi, Ghana</span>
             </div>
           </div>
         </div>

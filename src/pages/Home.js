@@ -78,10 +78,10 @@ const Home = () => {
 
               {/* Content with space above */}
               <div className="pt-32 space-y-4">
-                <p className="max-w-lg text-xl text-gray-600 dark:text-gray-400">
-                  Passionate about creating beautiful, functional, and user-friendly web experiences. 
-                  Based in Ghana, building the future of the web.
-                </p>
+                                            <p className="max-w-lg text-xl text-gray-600 dark:text-gray-400">
+                              Passionate about creating beautiful, functional, and user-friendly web experiences.
+                              Based in Kumasi, Ghana, building the future of the web.
+                            </p>
               </div>
 
               {/* Skills */}

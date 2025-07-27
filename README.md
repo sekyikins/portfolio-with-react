@@ -163,13 +163,14 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 About Benjamin
 
-Benjamin Kofi Sekyi is a passionate front-end developer from Ghana, specializing in React, JavaScript, HTML, and CSS. With experience in teaching and internships, he brings a unique perspective to web development.
+Benjamin Kofi Sekyi is a passionate front-end developer from Kumasi, Ghana, specializing in React, JavaScript, HTML, and CSS. With experience in teaching and internships, he brings a unique perspective to web development.
 
 ### Contact
 - Email: benjamin.sekyi@gmail.com
+- Phone: +233 55 659 0885 / +233 50 911 8087
 - GitHub: [@sekyikins](https://github.com/sekyikins)
 - LinkedIn: [Benjamin Sekyi](https://linkedin.com/in/benjamin-sekyi)
 
 ---
 
-Made with ❤️ in Ghana
+Made with ❤️ in Kumasi, Ghana
