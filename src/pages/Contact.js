@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin, FiSend } from 'react-icons/fi';
+import { FaFacebook, FaXTwitter, FaWhatsapp } from 'react-icons/fa6';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -37,26 +38,22 @@ const Contact = () => {
     {
       icon: FiMail,
       title: 'Email',
-      value: 'benjamin.sekyi@gmail.com',
-      link: 'mailto:benjamin.sekyi@gmail.com'
+      value: 'benjaminkofi.sekyi@gmail.com',
+      link: 'mailto:benjaminkofi.sekyi@gmail.com'
     },
     {
       icon: FiPhone,
       title: 'Phone',
-      value: '+233 55 659 0885',
-      link: 'tel:+233556590885'
-    },
-    {
-      icon: FiPhone,
-      title: 'Phone',
-      value: '+233 50 911 8087',
-      link: 'tel:+233509118087'
+      value: [
+        { number: '+233 55 659 0885', link: 'tel:+233556590885' },
+        { number: '+233 50 911 8087', link: 'tel:+233509118087' }
+      ]
     },
     {
       icon: FiMapPin,
       title: 'Location',
       value: 'Kumasi, Ghana',
-      link: null
+      link: 'https://www.google.com/maps?q=Kumasi,+Ghana'
     }
   ];
 
@@ -70,6 +67,16 @@ const Contact = () => {
       name: 'LinkedIn',
       url: 'https://linkedin.com/in/benjamin-sekyi',
       icon: FiLinkedin,
+    },
+    {
+      name: 'Facebook',
+      url: 'https://www.facebook.com/Mr.Sekyi2005/',
+      icon: FaFacebook,
+    },
+    {
+      name: 'X (Twitter)',
+      url: 'https://twitter.com/BenKofi2005',
+      icon: FaXTwitter,
     },
   ];
 
@@ -210,10 +217,25 @@ const Contact = () => {
                         <h3 className="font-medium text-gray-900 dark:text-white">
                           {info.title}
                         </h3>
-                        {info.link ? (
+                        {info.title === 'Phone' && Array.isArray(info.value) ? (
+                          <span>
+                            {info.value.map((phone, idx) => (
+                              <>
+                                <a
+                                  key={phone.number}
+                                  href={phone.link}
+                                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
+                                >
+                                  {phone.number}
+                                </a>
+                                {idx === 0 && ' / '}
+                              </>
+                            ))}
+                          </span>
+                        ) : info.link ? (
                           <a
                             href={info.link}
-                            className="text-gray-600 transition-colors duration-200 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400"
+                            className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
                           >
                             {info.value}
                           </a>

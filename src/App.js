@@ -32,7 +32,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+    <div className="App">
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <main>
           <Routes>
@@ -44,7 +44,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
-      </div>
+    </div>
     </Router>
   );
 }

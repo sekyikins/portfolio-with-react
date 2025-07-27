@@ -78,10 +78,10 @@ const Home = () => {
 
               {/* Content with space above */}
               <div className="pt-32 space-y-4">
-                                            <p className="max-w-lg text-xl text-gray-600 dark:text-gray-400">
-                              Passionate about creating beautiful, functional, and user-friendly web experiences.
-                              Based in Kumasi, Ghana, building the future of the web.
-                            </p>
+                                            <p className="max-w-lg pt-2 text-xl text-gray-600 dark:text-gray-400">
+                  Passionate about creating beautiful, dynamic, functional, and user-friendly web and mobile experiences. 
+                              Currently based in Kumasi, building the future of the world with technology.
+                </p>
               </div>
 
               {/* Skills */}
@@ -89,8 +89,8 @@ const Home = () => {
                 <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
                   Technologies I work with:
                 </p>
-                <div className="flex flex-wrap gap-2">
-                  {['HTML', 'CSS', 'JavaScript', 'React', 'Git', 'VS Code'].map((skill) => (
+                <div className="flex flex-wrap gap-3">
+                  {['HTML', 'CSS', 'JavaScript', 'React', 'React Native with Expo', '', 'Git & GitHub', 'VS Code'].map((skill) => (
                     <span
                       key={skill}
                       className="px-3 py-1 text-sm text-gray-700 bg-white border border-gray-200 rounded-full dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700"

@@ -93,13 +93,13 @@ const CertificationCard = ({ certification, index }) => {
 
         {/* Action Buttons */}
         <div className="flex space-x-2">
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
             onClick={handleViewCertificate}
             className="flex items-center space-x-2 btn-primary text-sm flex-1 justify-center"
-          >
-            <FiExternalLink className="w-4 h-4" />
+        >
+          <FiExternalLink className="w-4 h-4" />
             <span>View</span>
           </motion.button>
           <motion.button
@@ -110,7 +110,7 @@ const CertificationCard = ({ certification, index }) => {
           >
             <FiDownload className="w-4 h-4" />
             <span>Download</span>
-          </motion.button>
+        </motion.button>
         </div>
       </div>
     </motion.div>
