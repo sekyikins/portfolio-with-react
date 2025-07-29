@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FiDownload, FiMail, FiArrowRight, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiMail, FiArrowRight, FiGithub, FiLinkedin } from 'react-icons/fi';
 import profileImage from '../assets/1698124454394.png';
 
 const Home = () => {

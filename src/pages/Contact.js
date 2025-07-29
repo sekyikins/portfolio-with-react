@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin, FiSend } from 'react-icons/fi';
-import { FaFacebook, FaXTwitter, FaWhatsapp } from 'react-icons/fa6';
+import { FaFacebook, FaXTwitter } from 'react-icons/fa6';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -224,7 +224,7 @@ const Contact = () => {
                                 <a
                                   key={phone.number}
                                   href={phone.link}
-                                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
+                                  className="text-gray-600 transition-colors duration-200 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400"
                                 >
                                   {phone.number}
                                 </a>
@@ -235,7 +235,7 @@ const Contact = () => {
                         ) : info.link ? (
                           <a
                             href={info.link}
-                            className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
+                            className="text-gray-600 transition-colors duration-200 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400"
                           >
                             {info.value}
                           </a>
