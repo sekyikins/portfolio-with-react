@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiCode, FiBookOpen, FiUsers, FiAward, FiMapPin, FiMail, FiDownload, FiHome, FiBook, FiPhone } from 'react-icons/fi';
+import { FiCode, FiBookOpen, FiAward, FiMapPin, FiMail, FiDownload, FiHome, FiBook, FiPhone } from 'react-icons/fi';
 import { resume } from '../data/projects';
 
 const About = () => {

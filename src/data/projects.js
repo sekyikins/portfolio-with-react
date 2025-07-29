@@ -36,7 +36,7 @@ export const projects = [
     tech: ["React Native", "JavaScript", "Expo", "Mobile Development"],
     liveUrl: "https://expo.dev/@sekyikins/twitch-clone",
     githubUrl: "https://github.com/sekyikins/twitch-clone",
-    image: "/assets/twitch-clone.png",
+    image: "/assets/goLive.jpg",
     features: ["Live streaming", "Real-time chat", "User authentication", "Mobile UI"]
   },
   {
