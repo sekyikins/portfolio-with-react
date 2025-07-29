@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-with-react/static/css/main.f15cbbea.css",
-    "main.js": "/portfolio-with-react/static/js/main.8d112615.js",
+    "main.js": "/portfolio-with-react/static/js/main.13960249.js",
     "static/media/task1.png": "/portfolio-with-react/static/media/task1.6758a4eeea90c5ec1e65.png",
     "static/media/task2.png": "/portfolio-with-react/static/media/task2.919054056d2892152926.png",
     "static/media/task4.png": "/portfolio-with-react/static/media/task4.365d37452e666588ca6f.png",
@@ -12,12 +12,13 @@
     "static/media/CrashPy Cert.jpg": "/portfolio-with-react/static/media/CrashPy Cert.a81f288cb96da10237d7.jpg",
     "static/media/Edureka Internship Cert.png": "/portfolio-with-react/static/media/Edureka Internship Cert.ae114de8b657f3441f0a.png",
     "static/media/1698124454394.png": "/portfolio-with-react/static/media/1698124454394.632127bdb72975912b5b.png",
+    "static/media/goLive.jpg": "/portfolio-with-react/static/media/goLive.272a71f770269c89e9c1.jpg",
     "index.html": "/portfolio-with-react/index.html",
     "main.f15cbbea.css.map": "/portfolio-with-react/static/css/main.f15cbbea.css.map",
-    "main.8d112615.js.map": "/portfolio-with-react/static/js/main.8d112615.js.map"
+    "main.13960249.js.map": "/portfolio-with-react/static/js/main.13960249.js.map"
   },
   "entrypoints": [
     "static/css/main.f15cbbea.css",
-    "static/js/main.8d112615.js"
+    "static/js/main.13960249.js"
   ]
 }
