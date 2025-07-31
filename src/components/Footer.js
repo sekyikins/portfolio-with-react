@@ -44,7 +44,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="max-w-md text-gray-600 dark:text-gray-400">
-              Front-end developer from Kumasi, Ghana, passionate about creating beautiful and functional mobile dev. and web experiences.
+              Front-end developer schooling in Kwame Nkrumah University of Science and Technology, Kumasi, Ghana, passionate about creating beautiful, functional and dynamic mobile dev. and web experiences.
             </p>
           </div>
 

@@ -53,6 +53,12 @@ const Home = () => {
     },
   ];
 
+  const technologies = [
+    'HTML', 'CSS', 'JavaScript', 'React', 'React Native with Expo', 
+    'AI-Assisted Coding', 'Git & GitHub', 'VS Code', 'Node.js', 
+    'Tailwind CSS', 'Framer Motion', 'TypeScript', 'Next.js'
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
       {/* Hero Section */}
@@ -84,20 +90,36 @@ const Home = () => {
                 </p>
               </div>
 
-              {/* Skills */}
+              {/* Technologies Marquee */}
               <div className="space-y-3">
                 <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
                   Technologies I work with:
                 </p>
-                <div className="flex flex-wrap gap-3">
-                  {['HTML', 'CSS', 'JavaScript', 'React', 'React Native with Expo', '', 'Git & GitHub', 'VS Code'].map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1 text-sm text-gray-700 bg-white border border-gray-200 rounded-full dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700"
-                    >
-                      {skill}
-                    </span>
-                  ))}
+                <div className="relative overflow-hidden bg-white rounded-full dark:bg-gray-900">
+                  <div className="flex items-center py-2">
+                    {/* First set of technologies */}
+                    <div className="flex items-center space-x-4 animate-marquee whitespace-nowrap">
+                      {technologies.map((tech, index) => (
+                        <span
+                          key={`first-${index}`}
+                          className="px-4 py-1 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                    {/* Duplicate set for seamless loop */}
+                    <div className="absolute flex items-center space-x-4 animate-marquee2 whitespace-nowrap left-5">
+                      {technologies.map((tech, index) => (
+                        <span
+                          key={`second-${index}`}
+                          className="px-4 py-1 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300 dark:border-gray-600"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
 

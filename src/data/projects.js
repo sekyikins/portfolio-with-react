@@ -1,6 +1,7 @@
 import task1Image from '../assets/task1.png';
 import task2Image from '../assets/task2.png';
 import task4Image from '../assets/task4.png';
+import goLiveImage from '../assets/goLive.jpg';
 
 export const projects = [
   {
@@ -36,7 +37,7 @@ export const projects = [
     tech: ["React Native", "JavaScript", "Expo", "Mobile Development"],
     liveUrl: "https://expo.dev/@sekyikins/twitch-clone",
     githubUrl: "https://github.com/sekyikins/twitch-clone",
-    image: "/assets/goLive.jpg",
+    image: goLiveImage,
     features: ["Live streaming", "Real-time chat", "User authentication", "Mobile UI"]
   },
   {
