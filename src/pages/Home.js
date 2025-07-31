@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { FiMail, FiArrowRight, FiGithub, FiLinkedin } from 'react-icons/fi';
 import profileImage from '../assets/1698124454394.png';
 
@@ -95,10 +94,10 @@ const Home = () => {
                 <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
                   Technologies I work with:
                 </p>
-                <div className="relative overflow-hidden bg-white rounded-full dark:bg-gray-900">
+                <div className="relative w-full max-w-lg overflow-hidden bg-white rounded-full dark:bg-gray-900">
                   <div className="flex items-center py-2">
                     {/* First set of technologies */}
-                    <div className="flex items-center space-x-4 animate-marquee whitespace-nowrap">
+                    <div className="flex items-center pr-5 space-x-4 animate-marquee whitespace-nowrap">
                       {technologies.map((tech, index) => (
                         <span
                           key={`first-${index}`}
@@ -109,7 +108,7 @@ const Home = () => {
                       ))}
                     </div>
                     {/* Duplicate set for seamless loop */}
-                    <div className="absolute flex items-center space-x-4 animate-marquee2 whitespace-nowrap left-5">
+                    <div className="absolute left-0 flex items-center space-x-4 animate-marquee2 whitespace-nowrap">
                       {technologies.map((tech, index) => (
                         <span
                           key={`second-${index}`}
