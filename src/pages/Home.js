@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FiMail, FiArrowRight, FiGithub, FiLinkedin } from 'react-icons/fi';
 import profileImage from '../assets/1698124454394.png';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [text, setText] = useState('');
@@ -124,24 +125,26 @@ const Home = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col gap-4 sm:flex-row">
-                <motion.a
-                  href="/contact"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center justify-center space-x-2 btn-primary"
-                >
-                  <FiMail className="w-5 h-5" />
-                  <span>Get In Touch</span>
-                </motion.a>
-                <motion.a
-                  href="/projects"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center justify-center space-x-2 btn-secondary"
-                >
-                  <span>View My Work</span>
-                  <FiArrowRight className="w-5 h-5" />
-                </motion.a>
+                <Link to="/contact">
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="flex items-center justify-center space-x-2 btn-primary"
+                  >
+                    <FiMail className="w-5 h-5" />
+                    <span>Get In Touch</span>
+                  </motion.a>
+                </Link>
+                <Link to="/projects">
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="flex items-center justify-center space-x-2 btn-secondary"
+                  >
+                    <span>View My Work</span>
+                    <FiArrowRight className="w-5 h-5" />
+                  </motion.a>
+                </Link>
               </div>
 
               {/* Social Links */}

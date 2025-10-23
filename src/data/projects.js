@@ -1,4 +1,4 @@
-import { MyResume, task1Pic, task2Pic, task4Pic, goLive } from "../assets";
+import { MyResume, task1Pic, task2Pic, task4Pic, goLive, savings, profilePic } from "../assets";
 
 export const projects = [
   {
@@ -33,7 +33,7 @@ export const projects = [
     description: "A React Native mobile application that replicates Twitch's core streaming features. Includes live streaming, chat functionality, and user authentication.",
     tech: ["React Native", "JavaScript", "Expo", "Mobile Development"],
     liveUrl: "https://expo.dev/@sekyikins/twitch-clone",
-    githubUrl: "https://github.com/sekyikins/twitch-clone",
+    githubUrl: "https://github.com/PhantomHerald/GoLive",
     image: goLive,
     features: ["Live streaming", "Real-time chat", "User authentication", "Mobile UI"]
   },
@@ -42,18 +42,27 @@ export const projects = [
     description: "A modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode, and professional design showcasing my work.",
     tech: ["React", "Tailwind CSS", "Framer Motion", "Responsive Design"],
     liveUrl: "https://benjamin-sekyi.vercel.app/",
-    githubUrl: "https://github.com/sekyikins/portfolio",
-    image: "/assets/portfolio.png",
+    githubUrl: "https://github.com/sekyikins/portfolio-with-react",
+    image: profilePic,
     features: ["Dark mode", "Smooth animations", "Responsive design", "Professional UI"]
   },
   {
     title: "Task Management App",
     description: "A comprehensive task management application with drag-and-drop functionality, task categories, and progress tracking. Built for efficient project management.",
     tech: ["React", "CSS", "JavaScript", "Drag & Drop"],
-    liveUrl: "https://sekyikins.github.io/task-manager/",
-    githubUrl: "https://github.com/sekyikins/task-manager",
+    liveUrl: "https://sekyikins.github.io/AI-Scheduler-Project/",
+    githubUrl: "https://github.com/sekyikins/AI-Scheduler-Project",
     image: "/assets/task-manager.png",
     features: ["Drag & drop", "Task categories", "Progress tracking", "Local storage"]
+  },
+  {
+    title: " Savings Web App",
+    description: "A smart savings web app that helps users set goals, track progress, and manage multiple saving plans efficiently.",
+    tech: ["React", "CSS", "TypeScript", "Responsive Design"],
+    liveUrl: "https://tracksavings.netlify.app/",
+    githubUrl: "https://github.com/sekyikins/SavingsWebApp",
+    image: savings,
+    features: ["Responsive Design", "Savings categories", "Progress tracking", "SupaBase storage"]
   },
   {
     title: "Weather Dashboard",

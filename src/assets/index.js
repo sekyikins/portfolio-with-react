@@ -17,3 +17,5 @@ export { default as admissionLetterPic } from './admission letter.png';
 export { default as admissionLetter } from './Admission Letter (University).pdf';
 export { default as profile } from './1698124454394.png';
 export { default as codeAlphaLoR } from './CodeAlpha Letter of Recommendation.pdf';
+export { default as savings } from './savings.jpeg';
+export { default as profilePic } from './profilePic.jpeg';
