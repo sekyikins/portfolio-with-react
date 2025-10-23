@@ -47,7 +47,7 @@ const Home = () => {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/benjamin-sekyi',
+      url: 'https://www.linkedin.com/in/benjamin-kofi-sekyi-3a3bba389/',
       icon: FiLinkedin,
     },
   ];

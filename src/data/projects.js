@@ -1,7 +1,4 @@
-import task1Image from '../assets/task1.png';
-import task2Image from '../assets/task2.png';
-import task4Image from '../assets/task4.png';
-import goLiveImage from '../assets/goLive.jpg';
+import { MyResume, task1Pic, task2Pic, task4Pic, goLive } from "../assets";
 
 export const projects = [
   {
@@ -10,7 +7,7 @@ export const projects = [
     tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     liveUrl: "https://sekyikins.github.io/codealpha_task2/",
     githubUrl: "https://github.com/sekyikins/calculator",
-    image: task2Image,
+    image: task2Pic,
     features: ["Basic arithmetic operations", "Memory functions", "Responsive design", "Modern UI"]
   },
   {
@@ -19,7 +16,7 @@ export const projects = [
     tech: ["HTML", "CSS", "JavaScript", "Web Audio API"],
     liveUrl: "https://sekyikins.github.io/codealpha_task4/",
     githubUrl: "https://github.com/sekyikins/codealpha_task4",
-    image: task4Image,
+    image: task4Pic,
     features: ["Playlist management", "Volume control", "Audio visualization", "Modern controls"]
   },
   {
@@ -28,7 +25,7 @@ export const projects = [
     tech: ["HTML", "CSS", "JavaScript", "Filtering"],
     liveUrl: "https://sekyikins.github.io/codealpha_task1/",
     githubUrl: "https://github.com/sekyikins/gallery",
-    image: task1Image,
+    image: task1Pic,
     features: ["Category filtering", "Lightbox view", "Responsive grid", "Smooth animations"]
   },
   {
@@ -37,7 +34,7 @@ export const projects = [
     tech: ["React Native", "JavaScript", "Expo", "Mobile Development"],
     liveUrl: "https://expo.dev/@sekyikins/twitch-clone",
     githubUrl: "https://github.com/sekyikins/twitch-clone",
-    image: goLiveImage,
+    image: goLive,
     features: ["Live streaming", "Real-time chat", "User authentication", "Mobile UI"]
   },
   {
@@ -81,6 +78,6 @@ export const projects = [
 export const resume = {
   title: "Benjamin Sekyi - Resume",
   description: "Professional resume highlighting skills, experience, and achievements.",
-  downloadUrl: "/My Resume (1).pdf",
+  downloadUrl: MyResume,
   type: "pdf"
 }; 
