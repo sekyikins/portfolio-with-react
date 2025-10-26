@@ -41,7 +41,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "A modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode, and professional design showcasing my work.",
     tech: ["React", "Tailwind CSS", "Framer Motion", "Responsive Design"],
-    liveUrl: "https://benjamin-sekyi.vercel.app/",
+    liveUrl: "https://mrsekyi.netlify.app/",
     githubUrl: "https://github.com/sekyikins/portfolio-with-react",
     image: profilePic,
     features: ["Dark mode", "Smooth animations", "Responsive design", "Professional UI"]
