@@ -173,8 +173,8 @@ const Home = () => {
               className="flex justify-center lg:justify-start"
             >
               <div className="relative">
-                <div className="flex items-center justify-center p-3 rounded-full w-[420px] h-[420px] bg-gradient-to-br from-blue-200 via-primary-500 to-blue-800">
-                  <div className="overflow-hidden bg-white rounded-full w-[380px] h-[380px] dark:bg-gray-800">
+                <div className="flex items-center justify-center p-3 rounded-full w-[300px] h-[300px] md:w-[420px] md:h-[420px] bg-gradient-to-br from-blue-200 via-primary-500 to-blue-800">
+                  <div className="overflow-hidden bg-white rounded-full w-[280px] h-[280px] md:w-[380px] md:h-[380px] dark:bg-gray-800">
                     <img 
                       src={profileImage} 
                       alt="Benjamin Sekyi"
@@ -185,12 +185,12 @@ const Home = () => {
                 <motion.div
                   animate={{ rotate: 360 }}
                   transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                  className="absolute w-10 h-10 rounded-full -top-5 -right-5 bg-primary-500"
+                  className="absolute w-10 h-10 rounded-full -top-4 -right-4 bg-primary-500"
                 />
                 <motion.div
                   animate={{ rotate: -360 }}
                   transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-                  className="absolute w-8 h-8 rounded-full -bottom-5 -left-5 bg-primary-400"
+                  className="absolute w-8 h-8 rounded-full -bottom-4 -left-4 bg-primary-400"
                 />
               </div>
             </motion.div>

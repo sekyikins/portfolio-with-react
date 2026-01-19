@@ -90,7 +90,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 transition-colors duration-200 bg-gray-100 rounded-lg md:hidden dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
             >
-              {isOpen ? <FiX className="w-5 h-5" /> : <FiMenu className="w-5 h-5" />}
+              {isOpen ? <FiX className="w-5 h-5 dark:text-white" /> : <FiMenu className="w-5 h-5 dark:text-white" />}
             </button>
           </div>
         </div>
