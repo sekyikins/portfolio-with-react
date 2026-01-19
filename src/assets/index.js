@@ -19,3 +19,5 @@ export { default as profile } from './1698124454394.png';
 export { default as codeAlphaLoR } from './CodeAlpha Letter of Recommendation.pdf';
 export { default as savings } from './savings.jpeg';
 export { default as profilePic } from './profilePic.jpeg';
+export { default as cloverBlogsPic } from './cloverBlogsPic.png';
+export { default as cloverBlogsAdminPic } from './cloverBlogsAdminPic.png';

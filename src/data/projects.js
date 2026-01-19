@@ -1,6 +1,29 @@
-import { MyResume, task1Pic, task2Pic, task4Pic, goLive, savings, profilePic } from "../assets";
+import { MyResume, task1Pic, task2Pic, task4Pic, goLive, savings, profilePic, cloverBlogsPic, cloverBlogsAdminPic } from "../assets";
 
 export const projects = [
+  {
+    title: "Clover Blogs",
+    description: "A modern blog platform focused on clean reading experience and structured content delivery. Users can browse articles, read detailed posts, and explore content organized with tags and categories. Built with web fundamentals for speed, clarity, and responsiveness.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Supabasee"],
+    liveUrl: "https://sekyikins.github.io/codealpha_task2/",
+    githubUrl: "https://github.com/cloverghana/clover",
+    image: cloverBlogsPic,
+    features: ["Clean blog layout", "Readable article pages", "Responsive design for all devices", "Structured content presentation"]
+  },
+  {
+    title: "Clover Blogs (Admin Dashboard)",
+    description: "An administrative dashboard for managing blog content. Provides tools for creating, editing, and organizing blog posts, handling metadata, and maintaining content consistency across the platform.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Supabasee"],
+    liveUrl: "https://cloverblogs-admin.netlify.app/",
+    githubUrl: "https://github.com/sekyikins/clover-blogs-admin",
+    image: cloverBlogsAdminPic,
+    features: [
+      "Create and edit blog posts",
+      "Content management interface",
+      "Post organization and updates",
+      "Admin-only access structure"
+    ]
+  },
   {
     title: "Web Calculator",
     description: "A fully functional calculator with modern UI design featuring basic arithmetic operations, memory functions, and responsive layout. Built with vanilla JavaScript for optimal performance.",
@@ -29,9 +52,9 @@ export const projects = [
     features: ["Category filtering", "Lightbox view", "Responsive grid", "Smooth animations"]
   },
   {
-    title: "Twitch Clone Mobile App",
+    title: "goLive - Streaming App (CodeFest '25)",
     description: "A React Native mobile application that replicates Twitch's core streaming features. Includes live streaming, chat functionality, and user authentication.",
-    tech: ["React Native", "JavaScript", "Expo", "Mobile Development"],
+    tech: ["Spring Boot", "TypeScript", "Expo", "React Native"],
     liveUrl: "https://expo.dev/@sekyikins/twitch-clone",
     githubUrl: "https://github.com/PhantomHerald/GoLive",
     image: goLive,

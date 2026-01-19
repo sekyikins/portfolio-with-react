@@ -31,7 +31,7 @@ const Footer = () => {
 
   return (
     <footer className="border-t border-gray-200 bg-gray-50 dark:bg-gray-900 dark:border-gray-800">
-      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="p-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Brand Section */}
           <div className="space-y-4">
@@ -97,7 +97,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="pt-8 mt-8 border-t border-gray-200 dark:border-gray-800">
+        <div className="pt-4 mt-4 border-t border-gray-200 dark:border-gray-800">
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
             <p className="text-sm text-gray-600 dark:text-gray-400">
               © {currentYear} Benjamin Kofi Sekyi. All rights reserved.
