@@ -13,6 +13,7 @@ const About = () => {
     { name: 'Git & GitHub', icon: FiCode, level: 75 },
     { name: 'VS Code', icon: FiCode, level: 95 },
     { name: 'Responsive Design', icon: FiCode, level: 70 },
+    { name: 'Next.js', icon: FiCode, level: 50 },
   ];
 
   const timeline = [

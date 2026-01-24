@@ -1,11 +1,8 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiHeart } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa6';
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   const socialLinks = [
     {
       name: 'GitHub',
@@ -44,7 +41,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="max-w-md text-gray-600 dark:text-gray-400">
-              Front-end developer schooling in Kwame Nkrumah University of Science and Technology, Kumasi, Ghana, passionate about creating beautiful, functional and dynamic mobile dev. and web experiences.
+              Front-end developer schooling in Kwame Nkrumah University of Science and Technology, Kumasi, Ghana. Passionate about creating beautiful, functional and dynamic mobile dev. and web experiences.
             </p>
           </div>
 
@@ -98,15 +95,10 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="pt-4 mt-4 border-t border-gray-200 dark:border-gray-800">
-          <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
+          <div className="flex justify-center">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {currentYear} Benjamin Kofi Sekyi. All rights reserved.
+              © 2025 Benjamin Kofi Sekyi. All rights reserved.
             </p>
-            <div className="flex items-center space-x-2 text-sm text-gray-600 dark:text-gray-400">
-              <span>Made with</span>
-              <FiHeart className="w-4 h-4 text-red-500" />
-                              <span>in Kumasi, Ghana</span>
-            </div>
           </div>
         </div>
       </div>

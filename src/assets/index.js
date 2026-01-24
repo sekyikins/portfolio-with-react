@@ -1,4 +1,4 @@
-export { default as MyResume } from './My Resume (1).pdf';
+export { default as MyResume } from './Resume.pdf';
 export { default as task1Pic } from './task1.png';
 export { default as task2Pic } from './task2.png';
 export { default as task4Pic } from './task4.png';

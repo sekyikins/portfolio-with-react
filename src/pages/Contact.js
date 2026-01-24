@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin, FiSend } from 'react-icons/fi';
 import { FaFacebook, FaXTwitter } from 'react-icons/fa6';
@@ -186,7 +186,7 @@ const Contact = () => {
                     animate={{ opacity: 1, y: 0 }}
                     className="p-4 text-green-700 bg-green-100 rounded-lg dark:bg-green-900/20 dark:text-green-400"
                   >
-                    Message sent successfully! I'll get back to you soon.
+                    Message sent successfully! I'd get back to you soon.
                   </motion.div>
                 )}
               </form>
@@ -279,7 +279,7 @@ const Contact = () => {
                 </h3>
                 <p className="text-primary-100">
                   I'm always interested in new opportunities and exciting projects. 
-                  Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                  Whether you have a question or just want to say hi just hit me up, I'll try my best to get back to you!
                 </p>
               </div>
             </motion.div>
