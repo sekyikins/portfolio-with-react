@@ -29,7 +29,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-gray-200 bg-gray-50 dark:bg-gray-900 dark:border-gray-800">
       <div className="p-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="flex flex-col gap-5">
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
@@ -40,15 +40,15 @@ const Footer = () => {
                 Benjamin Sekyi
               </span>
             </div>
-            <p className="max-w-md text-gray-600 dark:text-gray-400">
+            <p className="w-full text-gray-600 dark:text-gray-400">
               Front-end developer schooling in Kwame Nkrumah University of Science and Technology, Kumasi, Ghana. Passionate about creating beautiful, functional and dynamic mobile dev. and web experiences.
             </p>
           </div>
-
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
           {/* Quick Links */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Quick Links</h3>
-            <ul className="space-y-2">
+            <ul className="grid grid-cols-2 gap-2">
               <li>
                 <a href="/about" className="text-gray-600 transition-colors duration-200 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
                   About
@@ -91,6 +91,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
+        </div>
         </div>
 
         {/* Bottom Section */}

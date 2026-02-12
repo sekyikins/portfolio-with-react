@@ -84,18 +84,18 @@ const Home = () => {
 
               {/* Content with space above */}
               <div className="pt-32 space-y-4">
-                                            <p className="max-w-lg pt-2 text-xl text-gray-600 dark:text-gray-400">
+                                            <p className="max-w-full pt-2 text-xl text-gray-600 dark:text-gray-400">
                   Passionate about creating beautiful, dynamic, functional, and user-friendly web and mobile experiences. 
                               Currently based in Kumasi, building the future of the world with technology.
                 </p>
               </div>
 
               {/* Technologies Marquee */}
-              <div className="space-y-3">
+              <div className="space-y-3 max-w-full">
                 <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
                   Technologies I work with:
                 </p>
-                <div className="relative w-full max-w-lg overflow-hidden bg-white rounded-full dark:bg-gray-900">
+                <div className="relative w-full max-w-full overflow-hidden bg-white rounded-full dark:bg-gray-900">
                   <div className="flex items-center py-2">
                     {/* First set of technologies */}
                     <div className="flex items-center pr-5 space-x-4 animate-marquee whitespace-nowrap">

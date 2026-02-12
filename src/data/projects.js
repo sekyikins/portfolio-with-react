@@ -2,7 +2,7 @@ import { MyResume, task1Pic, task2Pic, task4Pic, goLive, savings, profilePic, cl
 
 export const projects = [
   {
-    title: "Clover Blogs",
+    title: "Clover (Blogs Page)",
     description: "A modern blog platform focused on clean reading experience and structured content delivery. Users can browse articles, read detailed posts, and explore content organized with tags and categories. Built with web fundamentals for speed, clarity, and responsiveness.",
     tech: ["Next.js", "Tailwind CSS", "TypeScript", "Supabasee"],
     liveUrl: "https://sekyikins.github.io/codealpha_task2/",
@@ -11,7 +11,7 @@ export const projects = [
     features: ["Clean blog layout", "Readable article pages", "Responsive design for all devices", "Structured content presentation"]
   },
   {
-    title: "Clover Blogs (Admin Dashboard)",
+    title: "Clover Blogs Admin Dashboard",
     description: "An administrative dashboard for managing blog content. Provides tools for creating, editing, and organizing blog posts, handling metadata, and maintaining content consistency across the platform.",
     tech: ["Next.js", "Tailwind CSS", "TypeScript", "Supabasee"],
     liveUrl: "https://cloverblogs-admin.netlify.app/",

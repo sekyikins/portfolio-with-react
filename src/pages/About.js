@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiCode, FiBookOpen, FiAward, FiMapPin, FiMail, FiDownload, FiHome, FiBook, FiPhone } from 'react-icons/fi';
+import { FiCode, FiBookOpen, FiAward, FiMapPin, FiMail, FiDownload, FiHome, FiBook, FiPhone, FiBriefcase } from 'react-icons/fi';
 import { resume } from '../data/projects';
 
 const About = () => {
@@ -18,15 +18,27 @@ const About = () => {
 
   const timeline = [
     {
+      year: 'February 2026',
+      title: 'IBM SkillsBuild',
+      description: 'Successfully completed fundamental courses focusing on Cloud Computing and Cybersecurity.',
+      icon: FiAward,
+    },
+    {
+      year: 'May 2025',
+      title: 'Edureka Internship',
+      description: 'Attended Full Stack Web Development internship demo session program focusing on software development and industry practices.',
+      icon: FiCode,
+    },
+    {
       year: 'March 2025',
       title: 'CodeAlpha Internship',
       description: 'Successfully completed a comprehensive internship program focusing on web development and modern technologies.',
       icon: FiCode,
     },
     {
-      year: 'May 2025',
-      title: 'Edureka Internship',
-      description: 'Attended Full Stack Web Development internship demo session program focusing on software development and industry practices.',
+      year: 'April 2024',
+      title: 'Crash Python Programming (Udemy)',
+      description: 'Crash Python programming certificate from Udemy platform.',
       icon: FiCode,
     },
     {
@@ -36,21 +48,15 @@ const About = () => {
       icon: FiAward,
     },
     {
-      year: 'April 2024',
-      title: 'Crash Python Programming (Udemy)',
-      description: 'Crash Python programming certificate from Udemy platform.',
-      icon: FiCode,
+      year: 'January 2024 - Present',
+      title: 'BSc. Computer Science, KNUST',
+      description: 'Currently pursuing a Bachelor of Science in Computer Science at Kwame Nkrumah University of Science and Technology (KNUST), Kumasi, Ghana.',
+      icon: FiBookOpen,
     },
     {
       year: 'September 2023',
       title: 'Mfantsipim School Graduation',
       description: 'Academic certificate of graduation for the year 2023 from Mfantsipim School.',
-      icon: FiBookOpen,
-    },
-    {
-      year: '2023 - Present',
-      title: 'BSc. Computer Science, KNUST',
-      description: 'Currently pursuing a Bachelor of Science in Computer Science at Kwame Nkrumah University of Science and Technology (KNUST), Kumasi, Ghana.',
       icon: FiBookOpen,
     },
   ];
@@ -143,8 +149,12 @@ const About = () => {
                   <span className="text-gray-600 dark:text-gray-400">Kwame Nkrumah University of Science and Technology (KNUST)</span>
                 </div>
                 <div className="flex items-center space-x-3">
+                  <FiBriefcase className="w-5 h-5 text-primary-600 dark:text-primary-400" />
+                  <span className="text-gray-600 dark:text-gray-400">bksekyi@st.knust.edu.gh (School Email)</span>
+                </div>
+                <div className="flex items-center space-x-3">
                   <FiMail className="w-5 h-5 text-primary-600 dark:text-primary-400" />
-                  <span className="text-gray-600 dark:text-gray-400">benjaminkofi.sekyi@gmail.com</span>
+                  <span className="text-gray-600 dark:text-gray-400">benjaminkofi.sekyi@gmail.com / sekyibenjamin.official@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <FiPhone className="w-5 h-5 text-primary-600 dark:text-primary-400" />
@@ -156,7 +166,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <FiAward className="w-5 h-5 text-primary-600 dark:text-primary-400" />
-                  <span className="text-gray-600 dark:text-gray-400">6+ Certifications</span>
+                  <span className="text-gray-600 dark:text-gray-400">8+ Certifications</span>
                 </div>
               </div>
 
