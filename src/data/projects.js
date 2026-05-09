@@ -47,7 +47,7 @@ export const projects = [
     title: "Clover (Blogs Page)",
     description: "A modern blog platform focused on clean reading experience and structured content delivery. Users can browse articles, read detailed posts, and explore content organized with tags and categories. Built with web fundamentals for speed, clarity, and responsiveness.",
     tech: ["Next.js", "Tailwind CSS", "TypeScript", "Supabasee"],
-    liveUrl: "https://sekyikins.github.io/codealpha_task2/",
+    liveUrl: "",
     githubUrl: "https://github.com/cloverghana/clover",
     image: cloverBlogsPic,
     features: ["Clean blog layout", "Readable article pages", "Responsive design for all devices", "Structured content presentation"]
@@ -97,7 +97,7 @@ export const projects = [
     title: "goLive - Streaming App (CodeFest '25)",
     description: "A React Native mobile application that replicates Twitch's core streaming features. Includes live streaming, chat functionality, and user authentication.",
     tech: ["Spring Boot", "TypeScript", "Expo", "React Native"],
-    liveUrl: "https://expo.dev/@sekyikins/twitch-clone",
+    liveUrl: "",
     githubUrl: "https://github.com/PhantomHerald/GoLive",
     image: goLive,
     features: ["Live streaming", "Real-time chat", "User authentication", "Mobile UI"]
@@ -106,7 +106,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "A modern, responsive portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode, and professional design showcasing my work.",
     tech: ["React", "Tailwind CSS", "Framer Motion", "Responsive Design"],
-    liveUrl: "https://mrsekyi.netlify.app/",
+    liveUrl: "https://mrsekyiportfolio.netlify.app/",
     githubUrl: "https://github.com/sekyikins/portfolio-with-react",
     image: profilePic,
     features: ["Dark mode", "Smooth animations", "Responsive design", "Professional UI"]
