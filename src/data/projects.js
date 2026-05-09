@@ -1,6 +1,48 @@
-import { MyResume, task1Pic, task2Pic, task4Pic, goLive, savings, profilePic, cloverBlogsPic, cloverBlogsAdminPic } from "../assets";
+import { MyResume, task1Pic, task2Pic, task4Pic, goLive, savings, profilePic, cloverBlogsPic, cloverBlogsAdminPic, Ecommerce, POS, libsek  } from "../assets";
 
 export const projects = [
+  {
+    title: "StarMart E-commerce System",
+    description: "An online shopping platform built to work alongside the POS system, enabling customers to browse products, place orders, and interact with a real-time inventory system.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Supabase"],
+    liveUrl: "https://pos-e-commerce.vercel.app/",
+    githubUrl: "https://github.com/sekyikins/StarMart_e-commerce",
+    image: Ecommerce,
+    features: [
+      "Product browsing",
+      "Checkout flow",
+      "Real-time sync",
+      "Order processing"
+    ]
+  },
+  {
+    title: "StarMart POS System (In-Store Application)",
+    description: "A point-of-sale system designed for in-store transactions, inventory management, and sales tracking, fully integrated with the e-commerce platform for unified operations.",
+    tech: ["Next.js", "Tailwind CSS", "Supabase", "IndexedDB"],
+    liveUrl: "https://pos-system-psi-lilac.vercel.app/",
+    githubUrl: "https://github.com/sekyikins/pos-system",
+    image: POS,
+    features: [
+      "Sales processing",
+      "Sales checkout",
+      "Inventory management",
+      "Real-time sync"
+    ]
+  },
+  {
+    title: "Lib-Sek Books (Library & Book Request System)",
+    description: "A web-based platform for requesting, managing, and accessing books. Designed to streamline book discovery and request handling while supporting digital delivery and centralized storage.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Supabase"],
+    liveUrl: "https://libsek-books.vercel.app/",
+    githubUrl: "https://github.com/sekyikins/Lib-Sek-Books",
+    image: libsek,
+    features: [
+      "Book request submission",
+      "Book listing and browsing",
+      "Admin-side management",
+      "Automated delivery"
+    ]
+  },
   {
     title: "Clover (Blogs Page)",
     description: "A modern blog platform focused on clean reading experience and structured content delivery. Users can browse articles, read detailed posts, and explore content organized with tags and categories. Built with web fundamentals for speed, clarity, and responsiveness.",
@@ -95,15 +137,6 @@ export const projects = [
     githubUrl: "https://github.com/sekyikins/weather-app",
     image: "/assets/weather-app.png",
     features: ["Current weather", "5-day forecast", "Location detection", "Responsive design"]
-  },
-  {
-    title: "E-commerce Landing Page",
-    description: "A modern e-commerce landing page with product showcases, shopping cart functionality, and payment integration. Features smooth animations and user-friendly design.",
-    tech: ["HTML", "CSS", "JavaScript", "E-commerce"],
-    liveUrl: "https://sekyikins.github.io/ecommerce-landing/",
-    githubUrl: "https://github.com/sekyikins/ecommerce-landing",
-    image: "/assets/ecommerce-landing.png",
-    features: ["Product showcase", "Shopping cart", "Payment integration", "Responsive design"]
   }
 ];
 

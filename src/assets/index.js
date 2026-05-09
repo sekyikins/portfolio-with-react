@@ -27,3 +27,6 @@ export { default as AIForAllPic } from './AIForAll.png';
 export { default as AIForAll } from './AIForAll.pdf';
 export { default as CloudComputingPic } from './CloudComputing-IBM.png';
 export { default as CloudComputing } from './CloudComputing-IBM.pdf';
+export { default as Ecommerce } from './starmart-ecommerce.jpeg';
+export { default as POS } from './starmart-pos.jpeg';
+export { default as libsek } from './libsek.jpeg';
